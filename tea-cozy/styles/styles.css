@@ -1,0 +1,135 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+
+}
+header{
+    position:sticky;
+    top:0;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    z-index: 10;
+}
+
+.heading{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 9.5px;
+
+}
+
+.logo{
+    display:inline-flex;
+    height: 50px;
+
+}
+
+nav {
+    display: inline-flex;
+    flex-direction: row;
+    text-decoration: underline;
+}
+
+nav h3{
+    margin: 0 20px;
+}
+
+.miss-back-container{
+    position: relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.miss-back{
+
+    height:700px;
+    width: 1200px;
+
+}
+.miss-text{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:relative;
+    bottom:400px;
+    height:115px;
+    background-color: black;
+
+}
+
+#tea-month{
+    width: 1000px;
+    margin:0 auto;
+
+}
+
+
+.specials-container{
+    display:inline-flex;
+    flex-flow: row wrap;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.specials img{
+    height: 200px;
+    width: 300px;
+    margin: 10px 0;
+}
+
+
+.loc-container{
+    position:relative;
+    bottom: 450px;
+    display:flex;
+    column-gap: 40px;
+    justify-content:center;
+    z-index:10;
+
+}
+
+#locations{
+    height: 500px;
+}
+
+#locations h2{
+    position:relative;
+    bottom: 450px;
+
+}
+.loc{
+    margin-top: 15px;
+    width: 300px;
+    line-height:2.5;
+    opacity: 1;
+    background-color:black;
+}
+
+.loc-back-container{
+    z-index:-1;
+}
+
+.loc-back-container img{
+    height: 500px;
+    width: 1200px;
+}
+
+#contact {
+text-align:center;
+height:200px;
+
+}
+
+footer{
+    text-align:justify;
+}
+
+
+
+
